@@ -1,7 +1,11 @@
-document.getElementById("modal")
 
+document.getElementById("modal-header").addEventListener("click", popup)
 
+	setTimeout (function popup () { 
 
-setTimeout(function()
-	{ prompt("Enter your name and favorite type of pizza"); }, 3000);
+		// var model = document.getElementById("modal-header").value;
+		prompt("what")
 
+}, 3000);
+
+s

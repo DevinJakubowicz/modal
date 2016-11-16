@@ -1,12 +1,19 @@
+.container {
+
+	width: 100%
+	margin: 0 auto;
+	text-align: center;
+}
+
 .modal {
-	display: none;
-	position: absolute;
+	display: inline;
+	position: center;
 	left: 0;
 	top: 0;
-	width: 100%;
-	height: 100%;
+	width: 400px;
+	height: 400px;
 	overflow: auto;
-	background-color:
+	background-color: white;
 	z-index:1000; 
 }
 
@@ -20,10 +27,8 @@
 	text-align: center;
 }
 
-.container {
+.modal-header {
 
-	width: 100%
-	margin: 0 auto;
 }
 
 ./*exit {
@@ -36,8 +41,10 @@ h1 {
 	text-align: center;
 }
 
-body{
+body {
 
-	background-color: 
+	position: fixed
+	background-color:; 
+	background-image:;
 }
 
