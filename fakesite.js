@@ -1,11 +1,16 @@
 
-document.getElementById("modal-header").addEventListener("click", popup)
+setTimeout(function() {
 
-	setTimeout (function popup () { 
+	var myModal = document.getElementsByClassName('modal')[0];
 
-		// var model = document.getElementById("modal-header").value;
-		prompt("what")
+    	myModal.style.display = "inline"
+    
+  }, 3000);
 
-}, 3000);
 
-s
+span.onclick = function() { 
+
+	var span = document.getElementsByClassName("close")[0].addEventListener("click", onclick);
+
+  		span.style.display = "none";
+}

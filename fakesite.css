@@ -6,8 +6,8 @@
 }
 
 .modal {
-	display: inline;
-	position: center;
+	display: none;
+	position: center fixed;
 	left: 0;
 	top: 0;
 	width: 400px;
@@ -22,20 +22,33 @@
 	margin: 0 auto;
 	padding: 10px;
 	border: 3px solid black;
-	width: 100%
-	padding: 10px;
-	text-align: center;
+	width: 700px;
 }
 
 .modal-header {
+	margin: 0 auto;
+	padding: 10px;
+	border:3px solid black;
 
 }
 
-./*exit {
-	color: 
+.close {
+	position: absolute;
+	top: 45px;
+	right: 150px;
+	color: black;
 	font-size: 20px;
+	font-weight: bold;
+	transition: 0.3s;
+}
 
-}*/
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 
 h1 {
 	text-align: center;
@@ -43,8 +56,7 @@ h1 {
 
 body {
 
-	position: fixed
-	background-color:; 
+	background-color: #c2c4c2; 
 	background-image:;
 }
 
