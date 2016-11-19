@@ -8,9 +8,3 @@ setTimeout(function() {
   }, 3000);
 
 
-span.onclick = function() { 
-
-	var span = document.getElementsByClassName("close")[0].addEventListener("click", onclick);
-
-  		span.style.display = "none";
-}
