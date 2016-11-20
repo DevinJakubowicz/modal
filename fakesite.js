@@ -8,7 +8,13 @@ setTimeout(function() {
   }, 3000);
 
 
-// window.onclick = function(event) {
-//     if (event.target == modal) {
-//         modal.style.display = "none";
-//     }
+
+function close () {
+
+document.getElementsByTagName("button").addEventListener("onclick", close)
+
+	var exit = document.getElementsByClassName('modal')[0];
+
+	exit.style.display = "none"
+
+}
