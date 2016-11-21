@@ -8,13 +8,10 @@ setTimeout(function() {
   }, 3000);
 
 
-
 function close () {
 
-document.getElementsByTagName("button").addEventListener("onclick", close)
+document.getElementByTagName("button").addEventListener("click", close);
 
-	var exit = document.getElementsByClassName('modal')[0];
-
-	exit.style.display = "none"
+document.getElementsByClassName("modal")[0].style.display = "none"
 
 }
